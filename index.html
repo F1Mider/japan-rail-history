@@ -29,6 +29,7 @@
 
     <!-- This is from the example embedded vega-lite demo -->
     <script type="text/javascript">
+    var yourVlSpec = 
         {
                 $schema: 'https://vega.github.io/schema/vega-lite/v3.0.json',
                 description: 'A simple bar chart with embedded data.',
@@ -47,7 +48,8 @@
                     "color": {"field": "properties.zoning_code", "type": "nominal"}
                 }
             };
-            vegaEmbed('#vis', yourVlSpec);
+            
+            var embedded = vegaEmbed('#vis', yourVlSpec);
     </script>
     
 <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>

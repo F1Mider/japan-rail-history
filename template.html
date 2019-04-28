@@ -28,7 +28,18 @@
         <div class="slides">
 
             <section data-markdown="my_presentation.md">
-            
+
+            </section>
+
+            <section>
+                <div id='map' style='width: 400px; height: 300px;'></div>
+                <script>
+                    mapboxgl.accessToken = 'pk.eyJ1IjoiZjFtaWRlciIsImEiOiJjanVveXpocGUxMmpuNDNwZ3BvYTRkNmxlIn0.KtfkdnedY_35MBTyQZp1Rw';
+                    var map = new mapboxgl.Map({
+                        container: 'map',
+                        style: 'mapbox://styles/mapbox/streets-v11'
+                    });
+                </script>
             </section>
 
         </div>
@@ -37,19 +48,19 @@
         Reveal.initialize({
             width: 1920,
             height: 1080,
-        dependencies: [
-            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/marked.js' },
-            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/markdown.min.js' },
-            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/math/math.min.js', async: true }
-        ],
-        center: false,
-        transition: 'none',
-        backgroundTransition: 'none'
-    });
-</script>
+            dependencies: [
+                { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/marked.js' },
+                { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/markdown.min.js' },
+                { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/math/math.min.js', async: true }
+            ],
+            center: false,
+            transition: 'none',
+            backgroundTransition: 'none'
+        });
+    </script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
     <script src="figure1.js"></script>
 
-/body>
+</body>
 
 </html>

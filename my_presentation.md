@@ -44,7 +44,7 @@ And they all go to the same chart.
 
 For example, this system map involves five different companies
 
-<img src="img/sec_route_map_img.png" />
+<img src="img/sec_route_map_img.png" height=500 />
 
 source: http://www.mm21railway.co.jp/info/route_map.html
 
@@ -60,11 +60,11 @@ But only for railways that you've been to, not for each record
 
 ---
 
-<img src="img/jrmap.png" />
+<img src="img/jrmap.png" height=800 />
 
 ---
 
-<img src="img/prmap.png" />
+<img src="img/prmap.png" height=800 />
 
 ---
 

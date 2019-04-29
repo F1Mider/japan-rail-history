@@ -1,4 +1,4 @@
-var yourVlSpec =
+var vlSpec =
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v3.0.json",
     "description": "A simple bar chart with embedded data.",
@@ -80,4 +80,4 @@ var yourVlSpec =
     ]
 };
 
-var embedded = vegaEmbed('#vis', yourVlSpec);
+var embedded = vegaEmbed('#vis2', vlSpec);

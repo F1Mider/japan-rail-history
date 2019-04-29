@@ -12,7 +12,11 @@ See?
 
 OK, what now?
 
-<div id="vis"></div>
+<div id="vis2"></div>
+
+---
+
+<div id="vis3"></div>
 
 ---
 

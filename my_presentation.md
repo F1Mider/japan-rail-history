@@ -1,16 +1,16 @@
-# Visualizing train rides in Japan
+## Visualizing train rides in Japan
 
 <img src="img/_DSC0320.jpg" />
 
 ---
 
-# The data itself is complicated.
+## The data itself is complicated.
 
 <p class=fragment><img src="img/11.PNG" /></p>
 
 ---
 
-# The train system is complicated.
+## The train system is complicated.
 
 And they all go to the same chart.
 
@@ -40,7 +40,7 @@ And they all go to the same chart.
 
 ---
 
-# The complication is in different ways
+## The complication is in different ways
 
 For example, this system map involves five different companies
 
@@ -50,7 +50,7 @@ source: http://www.mm21railway.co.jp/info/route_map.html
 
 ---
 
-# There isn't anything that helped you visualize anything.
+## There isn't anything that helped you visualize anything.
 
 Except
 
@@ -68,30 +68,29 @@ But only for railways that you've been to, not for each record
 
 ---
 
-# A histogram of distance of train rides
+## A histogram of distance of train rides
 
 <img src="img/1.png" />
 
 ---
 
-# Histograms of distance of train rides
+## Histograms of distance of train rides
 
 <img src="img/2.png" />
 
 ---
 
-# Histograms of distance of train rides
+## Histograms of distance of train rides
 
 <img src="img/3.png" />
 
 ---
 
-# Some more data that are used
+## Some more data that are used
 
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v2_3.html
 
-* The railroad and stations data as of H29.12.31 (2017.12.31) by 
-the Ministry of Land, Infrastructure, Transport and Tourism (MLIT) in Japan.
+* The railroad and stations data as of H29.12.31 (2017.12.31) by the Ministry of Land, Infrastructure, Transport and Tourism (MLIT) in Japan.
 * Allowed use for both commercial and noncommercial purposes.
 * Free
 
@@ -104,7 +103,7 @@ http://www.ekidata.jp/
 
 ---
 
-# The first graph
+## The first graph
 
 + Used kepler.gl
 + Use the MLIT data as background
@@ -120,7 +119,7 @@ http://www.ekidata.jp/
 
 ---
 
-# The second graph
+## The second graph
 
 + Used Vega-Lite
 + Use the MLIT data as background

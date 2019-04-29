@@ -48,7 +48,29 @@
     });
 </script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
-    <script src="figure1.js"></script>
+    <script type="text/javascript">
+        var yourVlSpec = 
+            {
+                    $schema: 'https://vega.github.io/schema/vega-lite/v3.0.json',
+                    description: 'A simple bar chart with embedded data.',
+                    data: {
+                        name: 'champaign_zoning', url: './champaign.topojson',
+                        "format": {
+                            "type": "topojson",
+                            "feature": "Zoning"
+                        }
+                    },
+                    "mark": "geoshape",
+                    "projection": {
+                        "type": "albersUsa"
+                    },
+                    "encoding": {
+                        "color": {"field": "properties.zoning_code", "type": "nominal"}
+                    }
+                };
+                
+                var embedded = vegaEmbed('#vis', yourVlSpec);
+        </script>
 
 </body>
 

@@ -1,10 +1,10 @@
-## Visualizing train rides in Japan
+# Visualizing train rides in Japan
 
 <img src="img/_DSC0320.jpg" />
 
 ---
 
-The data itself is complicated
+## The data itself is complicated
 
 <img src="img/11.PNG" />
 
@@ -54,7 +54,7 @@ There isn't anything that helped you visualize anything.
 
 <p class="fragment">Except</p>
 
-<p class="fragment">http://www.noritsubushi.org/ <br />
+<p class="fragment">http://www.noritsubushi.org/ <br /><br />
 
 But only for railways that you've been to, not for each record</p>
 
@@ -90,8 +90,8 @@ Some more data that are used
 
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v2_3.html
 
-* The railroad and stations data as of H29.12.31 (2017.12.31) by 
-  the Ministry of Land, Infrastructure, Transport and Tourism (MLIT) in Japan.
+* The railroad and stations data as of H29.12.31 (2017.12.31) 
+* by the Ministry of Land, Infrastructure, Transport and Tourism (MLIT) in Japan.
 * Allowed use for both commercial and noncommercial purposes.
 * Free
 

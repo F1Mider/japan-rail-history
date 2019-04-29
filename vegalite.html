@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vega-Lite graph</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed"></script>
+
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+
+</head>
+
+<body>
+
+    <div id="vis2"></div>
+
+    <!-- This is from the example embedded vega-lite demo -->
+    <script type="text/javascript">
+        var vlSpec =
+        {
+            "$schema": "https://vega.github.io/schema/vega-lite/v3.0.json",
+            "data": {
+                "url": "https://raw.githubusercontent.com/F1Mider/spr2019-adv-project/master/rides.csv"
+            },
+            "hconcat": [
+                {
+                    "layer": [
+                        {
+                            "data": {
+                                "url": "https://raw.githubusercontent.com/F1Mider/spr2019-adv-project/master/N02-17_GML/N02-17_RailroadSection.geojson",
+                                "format": { "property": "features" }
+                            },
+                            "mark": "geoshape",
+                            "encoding": { "color": { "value": "gray" } }
+                        },
+                        {
+                            "selection": {
+                                "station_choice": {
+                                    "fields": ["station_name_x"],
+                                    "type": "single",
+                                    "empty": "none"
+                                },
+                                "station_choice_a": {
+                                    "fields": ["station_name_x"],
+                                    "type": "single"
+                                }
+                            },
+                            "transform": [{ "filter": { "selection": "station_choice" } }],
+                            "mark": { "type": "circle", "size": 12 },
+                            "encoding": {
+                                "longitude": { "field": "lon_y", "type": "quantitative" },
+                                "latitude": { "field": "lat_y", "type": "quantitative" },
+                                "tooltip": [{ "field": "station_name_y", "type": "nominal" }],
+                                "color": { "value": "red" }
+                            },
+                            "width": 800,
+                            "height": 900
+                        },
+                        {
+                            "transform": [{ "filter": { "selection": "station_choice_a" } }],
+                            "mark": { "type": "circle", "size": 8 },
+                            "encoding": {
+                                "longitude": { "field": "lon_x", "type": "quantitative" },
+                                "latitude": { "field": "lat_x", "type": "quantitative" },
+                                "tooltip": [{ "field": "station_name_x", "type": "nominal" }]
+                            },
+                            "width": 800,
+                            "height": 900
+                        }
+                    ]
+                },
+                {
+                    "vconcat": [
+                        {
+                            "mark": "bar",
+                            "transform": [{ "filter": { "selection": "station_choice" } }],
+                            "encoding": {
+                                "x": { "bin": true, "field": "distance", "type": "quantitative" },
+                                "y": { "aggregate": "count", "type": "quantitative" }
+                            }
+                        },
+                        {
+                            "mark": "bar",
+                            "transform": [{ "filter": { "selection": "station_choice" } }],
+                            "encoding": {
+                                "y": { "field": "type", "type": "nominal" },
+                                "x": { "aggregate": "count", "type": "quantitative" }
+                            }
+                        },
+                        {
+                            "mark": "bar",
+                            "transform": [{ "filter": { "selection": "station_choice" } }],
+                            "encoding": {
+                                "y": {
+                                    "field": "seat",
+                                    "type": "nominal",
+                                    "sort": { "encoding": "x", "order": "descending" }
+                                },
+                                "x": { "aggregate": "count", "type": "quantitative" }
+                            }
+                        },
+                        {
+                            "mark": "bar",
+                            "transform": [{ "filter": { "selection": "station_choice" } }],
+                            "encoding": {
+                                "y": { "field": "service", "type": "nominal" },
+                                "x": { "aggregate": "count", "type": "quantitative" }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "config": {}
+        }
+        var embedded = vegaEmbed('#vis2', vlSpec);
+    </script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+</body>
+
+</html>

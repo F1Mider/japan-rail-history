@@ -42,11 +42,11 @@ And they all go to the same chart.
 
 The complication is in different ways
 
-For example, this system map involves five different companies
+<p class="fragment">For example, this system map involves five different companies <br />
 
-<img src="img/sec_route_map_img.png" height=700 />
+<img src="img/sec_route_map_img.png" height=700 /> <br />
 
-source: http://www.mm21railway.co.jp/info/route_map.html
+source: http://www.mm21railway.co.jp/info/route_map.html</p>
 
 ---
 
@@ -54,7 +54,7 @@ There isn't anything that helped you visualize anything.
 
 <p class="fragment">Except</p>
 
-<p class="fragment">http://www.noritsubushi.org/
+<p class="fragment">http://www.noritsubushi.org/ <br />
 
 But only for railways that you've been to, not for each record</p>
 

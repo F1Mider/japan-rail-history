@@ -112,7 +112,7 @@ http://www.ekidata.jp/
 * Plus, connecting each depart and arrive station
 * Sadly, only with straight line
 * Somehow, the brushing is not working the same way as it was
-* And you cannot really do anything else from it
+* And you cannot really do anything from it
 
 ---
 

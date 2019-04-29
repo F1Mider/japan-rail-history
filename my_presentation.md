@@ -4,7 +4,7 @@
 
 ---
 
-## The complication is in different ways
+## It is complicated in different ways
 
 <p class="fragment">For example, this system map involves five different companies <br />
 
@@ -111,7 +111,7 @@ http://www.ekidata.jp/
 * Plot all stations that have been to
 * Plus, connecting each depart and arrive station
 * Sadly, only with straight line
-* Somehow, the brushing is not working the same way after exported
+* Somehow, the brushing is not working the same way as it was
 * And you cannot really do anything else from it
 
 ---
@@ -125,7 +125,8 @@ http://www.ekidata.jp/
 * Used Vega-Lite
 * Use the MLIT data as background
 * Plot all stations that have been to
-* Shows statictics for selected points
+* Shows statictics for selected station
+* As well as stations to/from that selected one
 * No, vega-lite does not support zoom in for geoshape
 * And you actually have to have a Japan map ready yourself
 * And it's slow, really

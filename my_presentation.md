@@ -4,6 +4,16 @@
 
 ---
 
+## The complication is in different ways
+
+<p class="fragment">For example, this system map involves five different companies <br />
+
+<img src="img/sec_route_map_img.png" height=700 /> <br />
+
+source: http://www.mm21railway.co.jp/info/route_map.html</p>
+
+---
+
 ## The data itself is complicated
 
 <img src="img/11.PNG" />
@@ -37,16 +47,6 @@ And they all go to the same chart.
 ---
 
 <img src="img/_DSC0906.jpg" />
-
----
-
-## The complication is in different ways
-
-<p class="fragment">For example, this system map involves five different companies <br />
-
-<img src="img/sec_route_map_img.png" height=700 /> <br />
-
-source: http://www.mm21railway.co.jp/info/route_map.html</p>
 
 ---
 

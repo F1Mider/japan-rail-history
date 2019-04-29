@@ -10,7 +10,7 @@
 
 ---
 
-The train system is complicated
+## The train system is complicated
 
 And they all go to the same chart.
 
@@ -40,7 +40,7 @@ And they all go to the same chart.
 
 ---
 
-The complication is in different ways
+## The complication is in different ways
 
 <p class="fragment">For example, this system map involves five different companies <br />
 
@@ -50,7 +50,7 @@ source: http://www.mm21railway.co.jp/info/route_map.html</p>
 
 ---
 
-There isn't anything that helped you visualize anything.
+## There isn't anything that helped you visualize anything.
 
 <p class="fragment">Except</p>
 
@@ -68,25 +68,25 @@ But only for railways that you've been to, not for each record</p>
 
 ---
 
-A histogram of distance of train rides
+## A histogram of distance of train rides
 
 <img src="img/1.png" />
 
 ---
 
-Histograms of distance of train rides
+## Histograms of distance of train rides
 
 <img src="img/2.png" />
 
 ---
 
-Histograms of distance of train rides
+## Histograms of distance of train rides
 
 <img src="img/3.png" />
 
 ---
 
-Some more data that are used
+## Some more data that are used
 
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v2_3.html
 
@@ -104,13 +104,12 @@ http://www.ekidata.jp/
 
 ---
 
-The first graph
+## The first graph
 
 * Use kepler.gl
 * Use the MLIT data as background
 * Plot all stations that have been to
 * Plus, connecting each depart and arrive station
-
 * Sadly, only with straight line
 * And you cannot really do anything else from it
 
@@ -120,13 +119,12 @@ The first graph
 
 ---
 
-The second graph
+## The second graph
 
 * Used Vega-Lite
 * Use the MLIT data as background
 * Plot all stations that have been to
 * Shows statictics for selected points
-
 * No, vega-lite does not support zoom in for geoshape
 * And you actually have to have a Japan map ready yourself
 * And it's slow, really

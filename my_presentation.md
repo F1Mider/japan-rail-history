@@ -24,15 +24,15 @@ And they all go to the same chart.
 
 ---
 
-<img src="img/_DSC9776.jpg" />
-
----
-
 <img src="img/_DSC9572.jpg" />
 
 ---
 
 <img src="img/_DSC8758.jpg" />
+
+---
+
+<img src="img/_DSC1733.jpg" />
 
 ---
 
@@ -50,7 +50,7 @@ source: http://www.mm21railway.co.jp/info/route_map.html</p>
 
 ---
 
-## There isn't anything that helped you visualize anything.
+## There isn't anything that helped you visualize anything
 
 <p class="fragment">Except</p>
 
@@ -111,6 +111,7 @@ http://www.ekidata.jp/
 * Plot all stations that have been to
 * Plus, connecting each depart and arrive station
 * Sadly, only with straight line
+* Somehow, the brushing is not working the same way after exported
 * And you cannot really do anything else from it
 
 ---
@@ -133,4 +134,8 @@ http://www.ekidata.jp/
 
 <!-- .slide: data-background-iframe="./vegalite.html" data-background-interactive -->
 
+---
 
+# Thank you!
+
+<img src="img/_DSC4172.jpg" />

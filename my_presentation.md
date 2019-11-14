@@ -26,25 +26,37 @@ And they all go to the same chart.
 
 ---
 
+## Shinkansen - The bullet trains
+
 <img src="img/_DSC1107.jpg" />
 
 ---
+
+## Sleeper trains
 
 <img src="img/_DSC1034.jpg" />
 
 ---
 
+## Local trains
+
 <img src="img/_DSC9572.jpg" />
 
 ---
+
+## Private railway
 
 <img src="img/_DSC8758.jpg" />
 
 ---
 
+## Monorails
+
 <img src="img/_DSC1733.jpg" />
 
 ---
+
+## Or trams
 
 <img src="img/_DSC0906.jpg" />
 
@@ -70,17 +82,21 @@ But only for railways that you've been to, not for each record</p>
 
 ## A histogram of distance of train rides
 
+Most trips are very short, but there are very long ones
+
 <img src="img/1.png" />
 
 ---
 
-## Histograms of distance of train rides
+## Let's zoom in
+
+Still, most trips are below 20 km
 
 <img src="img/2.png" />
 
 ---
 
-## Histograms of distance of train rides
+## Let's zoom in further
 
 <img src="img/3.png" />
 
